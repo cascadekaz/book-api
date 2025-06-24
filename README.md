@@ -63,3 +63,19 @@ curl -X PUT http://localhost:5000/api/books/<bookId> \
 ```bash
 curl -X DELETE http://localhost:5000/api/books/<bookId>
 ```
+
+## 🧪 Test Coverage
+
+Here's the test coverage summary:
+
+![Test Coverage](./book-test.png)
+
+## Run tests and see coverage
+```bash
+npm test
+```
+
+## Test Tools Used
+- **Jest**
+- **Supertest**
+- **mongodb-memory-server**
